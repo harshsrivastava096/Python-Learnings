@@ -98,3 +98,15 @@
 #     print("c is greatest")
 # else:
 #     print("d is greatest")
+
+
+# ©️Write a program to check that given number is Special character using ELIF statement
+# a = input("Enter a character: ")
+
+# if a.isalpha():
+#     print("It is Alphabet")
+# elif a.isdigit():
+#     print("It is Digit")
+# else:
+#     print("It is Special Character")
+
