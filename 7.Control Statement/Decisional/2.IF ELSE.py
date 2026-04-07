@@ -82,4 +82,85 @@
 #     print("Loss or No Profit") 
 
 
+# ©️Write a program to check that given number is Special character using NESTED IF-ELSE statement
+# a = input("Enter a character: ")
+# if a.isalpha():
+#     print("It is only Alphabets")
+# else:
+#     if a.isdigit():
+#         print("It is Digits")
+#     else:
+#         if a.isalnum():   
+#             print("It is Combination of Alphabet and Digit")
+#         else:
+#             if any(c.isalpha() for c in a):
+#                 if any(c.isdigit() for c in a):
+#                     print("It is Combination of Alphabet, Digit and Special Character")
+#                 else:
+#                     print("Combination of Alphabet and Special Character")
+#             else:
+#                 if any(c.isdigit() for c in a):
+#                     print("It is Combination of Digit and Special Character")
+#                 else:
+#                     print("It is Special Characters")
+
+
+# ©️Write a program to check greated among three numbers using NESTED IF-ELSE statement
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# c = int(input("Enter third number: "))
+# if a > b:
+#     if a > c:
+#         print("Greatest is:", a)
+#     else:
+#         print("Greatest is:", c)
+# else:
+#     if b > c:
+#         print("Greatest is:", b)
+#     else:
+#         print("Greatest is:", c)
+
+
+# ©️WAP to print reverse of str if it is start with Uppercase and end with digit 
+# a = input("Enter a string: ")
+# if a[0].isupper():
+#     if a[-1].isdigit():
+#         b = a[::-1]
+#         print("Reversed string:", b)
+#     else:
+#         print("String does not end with a digit")
+# else:
+#     print("String does not start with an uppercase letter")
+
+
+# ©️Write a program to check greated among Four numbers using NESTED IF-ELSE statement
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# c = int(input("Enter third number: "))
+# d = int(input("Enter fourth number: "))
+# if a > b:
+#     if a > c:
+#         if a > d:
+#             print("Greatest is:", a)
+#         else:
+#             print("Greatest is:", d)
+#     else:
+#         if c > d:
+#             print("Greatest is:", c)
+#         else:
+#             print("Greatest is:", d)
+# else:
+#     if b > c:
+#         if b > d:
+#             print("Greatest is:", b)
+#         else:
+#             print("Greatest is:", d)
+#     else:
+#         if c > d:
+#             print("Greatest is:", c)
+#         else:
+#             print("Greatest is:", d)
+
+
+
 
